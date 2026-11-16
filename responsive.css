@@ -1,0 +1,374 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+  /* latest news responsive css start */
+  .latest_news .latest_news_grid {
+  }
+  /* end */
+  /* whats new responsive css start */
+  .container_left {
+    width: 100% !important;
+    padding: 0 !important ;
+    margin: 0 !important;
+  }
+  .container_left_item1 img {
+    height: 400px !important;
+  }
+  .container_left_item2 {
+    width: 100% !important;
+  }
+  .container_left .most_views .most_views_card {
+    width: 100% !important;
+  }
+
+  .container_left .most_views .most_views_card img {
+    width: 100% !important;
+  }
+  .container_left .life_style_view .life_style_view_card {
+    width: 100% !important;
+  }
+  .container_left .life_style_view .life_style_view_card img {
+    width: 100% !important;
+  }
+  .container_left .life_style_view .life_style_view_card .variation {
+    width: 90% !important;
+    text-align: left;
+  }
+  /* end */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+
+  /* banner section responsive css start */
+  .banner {
+    gap: 5px !important;
+    padding: 5px !important;
+  }
+  /* end */
+  /* lorem responsive start  */
+  .lorem {
+    padding: 10px !important;
+  }
+  .lorem .lorem_left {
+    width: 100%;
+  }
+  .lorem .lorem_left .lorem_left_image img {
+    height: 400px !important;
+  }
+  .lorem .lorem_left .top_story {
+    padding: 0px !important;
+    margin: 0 !important;
+  }
+  .lorem .top_story .top_story_flex img {
+    width: 200px !important;
+    margin: 10px;
+  }
+  /* end */
+  /* latest news responsive css start */
+  .latest_news .latest_news_grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  /* end */
+  /* whats new responsive css start */
+  .container_left_item1 img {
+    height: 300px !important;
+  }
+  .container_left_item2 {
+    width: 100% !important;
+  }
+  .container_left .most_views .most_views_card {
+    width: 100% !important;
+  }
+
+  .container_left .most_views .most_views_card img {
+    width: 100% !important;
+  }
+  .container_left .life_style_view .life_style_view_card {
+    width: 100% !important;
+  }
+  .container_left .life_style_view .life_style_view_card img {
+    width: 100% !important;
+  }
+  .container_left .life_style_view .life_style_view_card .variation {
+    width: 90% !important;
+    text-align: left;
+  }
+  /* end */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* banner section responsive css start */
+  .banner {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* end */
+  /* lorem responsive start  */
+  .lorem {
+    display: grid !important;
+    padding: 10px !important;
+  }
+  .lorem .lorem_left {
+    width: 100%;
+  }
+  .lorem .lorem_left .lorem_left_image img {
+    height: 300px !important;
+  }
+  .lorem .lorem_left h2 {
+    font-size: 25px !important;
+  }
+  .lorem .lorem_left .top_story {
+    padding: 0px !important;
+    margin: 0 !important;
+  }
+  .lorem .top_story .top_story_flex .flex_content {
+    padding: 0 !important;
+    margin: 5px;
+  }
+  .lorem .top_story .top_story_flex img {
+    width: 150px !important;
+    margin: 10px;
+  }
+  /* end */
+  /* update responsive start */
+  .updates {
+    display: grid !important;
+  }
+  .updates .updates_content {
+    width: 100%;
+  }
+  .updates .updates_content .updates_input input {
+    width: 100% !important;
+  }
+  .updates .updates_image {
+    width: 100% !important;
+  }
+  /* end */
+  /* latest news responsive css start */
+  .latest_news .latest_news_grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  /* end */
+  /* whats new responsive css start */
+  .container .whats_new {
+    display: grid !important;
+  }
+  .d_flex {
+    display: grid !important;
+  }
+  .container_left {
+    width: 100% !important;
+    padding: 0 !important ;
+    margin: 0 !important;
+  }
+  .container_left_item1 img {
+    height: 300px !important;
+  }
+  .container_left_item2 {
+    width: 100% !important;
+  }
+  .container_left .most_views .most_views_card {
+    width: 100% !important;
+  }
+
+  .container_left .most_views .most_views_card img {
+    width: 100% !important;
+  }
+  .container_left .life_style_view .life_style_view_card {
+    width: 100% !important;
+  }
+  .container_left .life_style_view .life_style_view_card img {
+    width: 100% !important;
+    height: 300px !important;
+  }
+  .container_left .life_style_view .life_style_view_card .variation {
+    width: 90% !important;
+    text-align: left;
+  }
+  .container_right {
+    width: 100% !important;
+  }
+  /* end */
+  /* footer responsive css start  */
+  .footer_header {
+    display: grid !important;
+  }
+  .footer_header .input_email {
+    padding: 10px 5px !important;
+  }
+  .footer_header input {
+    width: 350px !important;
+  }
+  .footer .footer_grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* end */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+
+  /* banner section responsive css start */
+  .banner {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* end */
+  /* lorem responsive start  */
+  .lorem {
+    display: grid !important;
+    padding: 10px !important;
+  }
+  .lorem .lorem_left {
+    width: 100%;
+  }
+  .lorem .lorem_left .lorem_left_image img {
+    height: 300px !important;
+  }
+  .lorem .lorem_left .reviews span {
+    font-size: 18px;
+  }
+  .lorem .lorem_left h2 {
+    font-size: 25px !important;
+  }
+  .lorem .lorem_left .top_story {
+    padding: 0px !important;
+    margin: 0 !important;
+  }
+  .lorem .top_story .top_story_flex .flex_content {
+    padding: 0 !important;
+    margin: 5px;
+  }
+  .lorem .top_story .top_story_flex img {
+    width: 150px !important;
+    margin: 10px;
+  }
+  .text-primary {
+    font-size: 18px !important;
+  }
+  .lorem .top_story .top_story_flex .flex_content i {
+    font-size: 14px !important;
+  }
+  /* end */
+  /* update responsive start */
+  .updates {
+    display: grid !important;
+  }
+  .updates .updates_content {
+    width: 100%;
+  }
+  .updates .updates_content .updates_input input {
+    width: 100% !important;
+  }
+  .updates .updates_image {
+    width: 100% !important;
+  }
+  /* end */
+  /* latest news responsive css start */
+  .latest_news .latest_news_grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  /* end */
+  /* whats new responsive css start */
+  .container {
+    display: grid !important;
+  }
+  .container .whats_new {
+    display: grid !important;
+  }
+  .d_flex {
+    display: grid !important;
+  }
+  .container_left {
+    width: 100% !important;
+    padding: 0 !important ;
+    margin: 0 !important;
+  }
+  .container_left_item1 img {
+    height: 300px !important;
+  }
+  .container_left_item2 {
+    width: 100% !important;
+  }
+  .container_left .most_views .most_views_card {
+    width: 100% !important;
+  }
+
+  .container_left .most_views .most_views_card img {
+    width: 100% !important;
+  }
+  .container_left .life_style_view .life_style_view_card {
+    width: 100% !important;
+  }
+  .container_left .life_style_view .life_style_view_card img {
+    width: 100% !important;
+    height: 300px !important;
+  }
+  .container_left .life_style_view .life_style_view_card .variation {
+    width: 90% !important;
+    text-align: left;
+  }
+  .container_right {
+    width: 100% !important;
+  }
+  /* end */
+  /* footer responsive css start  */
+  .footer_header {
+    display: grid !important;
+  }
+  .footer_header .input_email {
+    padding: 10px 5px !important;
+  }
+  .footer_header input {
+    width: 250px !important;
+  }
+  .footer .footer_grid {
+    display: grid !important;
+  }
+  /* end */
+  /* footer iland responsive css start */
+  .footer_iland p {
+    font-size: 10px !important;
+  }
+  .text-primary {
+    font-size: 10px !important;
+  }
+  /* end  */
+}
